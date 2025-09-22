@@ -1,50 +1,66 @@
-# Welcome to your Expo app 👋
+# Demo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![](docs/ios_demo.gif)
+![](docs/android_demo.gif)
 
-## Get started
+# Dashboard
 
-1. Install dependencies
+<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+  <div style="gap: 4px; width: 50%">
+  iOS
+  <div style="display: flex; gap: 4px; width: 100%">
+    <img src="docs/ios_dashboard_1.png" alt="iOS" width="30%"/>
+    <img src="docs/ios_dashboard_2.png" alt="iOS" width="30%"/>
+    <img src="docs/ios_dashboard_3.png" alt="iOS" width="30%"/>
+  </div>
+  </div>
 
-   ```bash
-   npm install
-   ```
+   <div style="gap: 4px; width: 50%">
+  Android
+  <div style="display: flex; gap: 4px; width: 100%">
+    <img src="docs/android_dashboard_1.png" alt="Android" width="30%"/>
+    <img src="docs/android_dashboard_2.png" alt="Android" width="30%"/>
+    <img src="docs/android_dashboard_3.png" alt="Android" width="30%"/>
+  </div>
+  </div>
+</div>
 
-2. Start the app
+# Deposit
 
-   ```bash
-   npx expo start
-   ```
+<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+  <div style="gap: 4px; width: 50%">
+  iOS
+  <div style="display: flex; gap: 4px; width: 100%">
+    <img src="docs/ios_deposit_1.png" alt="iOS" width="30%"/>
+    <img src="docs/ios_deposit_2.png" alt="iOS" width="30%"/>
+    <img src="docs/ios_deposit_3.png" alt="iOS" width="30%"/>
+  </div>
+  </div>
 
-In the output, you'll find options to open the app in a
+   <div style="gap: 4px; width: 50%">
+  Android
+  <div style="display: flex; gap: 4px; width: 100%">
+    <img src="docs/android_deposit_1.png" alt="Android" width="30%"/>
+    <img src="docs/android_deposit_2.png" alt="Android" width="30%"/>
+    <img src="docs/android_deposit_3.png" alt="Android" width="30%"/>
+  </div>
+  </div>
+</div>
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# Deposit success
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+  <div style="gap: 4px; width: 50%">
+  iOS
+  <div style="display: flex; gap: 4px; width: 100%">
+    <img src="docs/ios_success.png" alt="iOS" width="30%"/>
+  </div>
+  </div>
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   <div style="gap: 4px; width: 50%">
+  Android
+  <div style="display: flex; gap: 4px; width: 100%">
+    <img src="docs/android_success.png" alt="Android" width="30%"/>
+  </div>
+  </div>
+</div>

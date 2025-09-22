@@ -11,6 +11,7 @@ export default function TabLayout() {
         tabBarActiveTintColor: "#000000",
         tabBarInactiveTintColor: "#CDCDCD",
         headerShown: false,
+        tabBarStyle: { borderTopColor: "#CDCDCD", paddingTop: 6 },
         tabBarButton: HapticTab,
       }}
     >
@@ -22,7 +23,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="referral"
         options={{
           title: "Referral",
           tabBarIcon: ({ color }) => <UserPlus size={28} color={color} />,

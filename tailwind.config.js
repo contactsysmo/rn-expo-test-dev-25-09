@@ -12,9 +12,5 @@ module.exports = {
       },
     },
   },
-  corePlugins: {
-    fontWeight: false,
-    fontStyle: false,
-  },
   plugins: [],
 };
