@@ -31,10 +31,7 @@ export const CardWidget = ({ card }: CardWidgetProps) => {
       >
         <View className="flex-row justify-between items-start">
           <Text>{`Card ** ${card.cardNumber.slice(-4)}`}</Text>
-          <Image
-            source={images.s_card_image}
-            style={{ width: 70, height: 96 }}
-          />
+          <Image source={images.sCardImage} style={{ width: 70, height: 96 }} />
         </View>
 
         {showBalance ? (

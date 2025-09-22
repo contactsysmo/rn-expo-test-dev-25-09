@@ -5,8 +5,9 @@ import AppButton from "@/src/components/ui/AppButton";
 import PaginatedCarousel from "@/src/components/ui/PaginatedCarousel";
 import { ScreenWrapper } from "@/src/components/ui/ScreenWrapper";
 import { CreditCardDetails } from "@/src/types/creditCard";
+import { router } from "expo-router";
 import { Plus, Settings } from "lucide-react-native";
-import { Text, useWindowDimensions, View } from "react-native";
+import { useWindowDimensions, View } from "react-native";
 
 export default function DashboardScreen() {
   const { width: screenWidth } = useWindowDimensions();
@@ -20,14 +21,18 @@ export default function DashboardScreen() {
       />
       <View className="p-4 border-b border-b-[#CDCDCD]">
         <View className="flex-row gap-2">
-          <AppButton className="flex-1" icon={<Plus color="white" size={20} />}>
-            <Text>Deposit card</Text>
+          <AppButton
+            className="flex-1"
+            icon={<Plus color="white" size={20} />}
+            onPress={() => router.navigate("/deposit-card")}
+          >
+            Deposit card
           </AppButton>
           <AppButton
             className="flex-1"
             icon={<Settings color="white" size={18} />}
           >
-            <Text>Card settings</Text>
+            Card settings
           </AppButton>
         </View>
       </View>

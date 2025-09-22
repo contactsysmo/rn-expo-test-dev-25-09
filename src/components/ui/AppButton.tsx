@@ -18,7 +18,7 @@ export default function AppButton({
   icon,
 }: ButtonProps) {
   const pressableClass = cn(
-    "flex-row whitespace-nowrap rounded-[8px] text-sm overflow-hidden px-5 py-3 min-h-[48px] gap-3 items-center justify-center bg-black",
+    "flex-row whitespace-nowrap rounded-[8px] text-sm overflow-hidden px-5 py-3 min-h-[56px] gap-3 items-center justify-center bg-black",
     className
   );
 

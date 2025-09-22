@@ -1,9 +1,10 @@
-import { ScrollView, View } from "react-native";
+import { ScreenWrapper } from "@/src/components/ui/ScreenWrapper";
+import { View } from "react-native";
 
 export default function ReferralScreen() {
   return (
-    <ScrollView>
+    <ScreenWrapper>
       <View />
-    </ScrollView>
+    </ScreenWrapper>
   );
 }

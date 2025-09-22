@@ -2,7 +2,7 @@ import { images } from "@/src/assets/images";
 import { Image } from "expo-image";
 import { Plus } from "lucide-react-native";
 import React from "react";
-import { Text, View } from "react-native";
+import { Text, TouchableOpacity, View } from "react-native";
 
 export const DashboardHeader = () => {
   return (
@@ -11,10 +11,10 @@ export const DashboardHeader = () => {
         source={images.avatar}
         style={{ width: 40, height: 40, borderRadius: 20 }}
       />
-      <View className="items-center">
+      <TouchableOpacity className="items-center">
         <Plus size={24} color="black" />
         <Text className="text-center text-xs">Add cart</Text>
-      </View>
+      </TouchableOpacity>
     </View>
   );
 };

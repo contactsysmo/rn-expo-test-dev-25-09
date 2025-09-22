@@ -43,6 +43,7 @@ export const ScreenWrapper = React.forwardRef<ScrollView, ScreenWrapperProps>(
             ref={scrollRef}
             style={[{ flex: 1 }, scrollViewStyle]}
             showsVerticalScrollIndicator={false}
+            extraKeyboardSpace={bottomSafeAreaVisible ? -insets.bottom : 0}
             contentContainerStyle={[
               {
                 flexGrow: 1,
