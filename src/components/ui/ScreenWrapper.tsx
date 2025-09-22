@@ -1,3 +1,4 @@
+import { cn } from "@/src/theme/cn";
 import React, { ReactNode, useMemo } from "react";
 import { ScrollView, ScrollViewProps, View, ViewStyle } from "react-native";
 import {
@@ -15,6 +16,8 @@ interface ScreenWrapperProps {
   scrollViewStyle?: ViewStyle;
   header?: ReactNode;
   scrollViewProps?: ScrollViewProps;
+  topSafeAreaVisible?: boolean;
+  bottomSafeAreaVisible?: boolean;
 }
 
 export const ScreenWrapper = React.forwardRef<ScrollView, ScreenWrapperProps>(
@@ -26,6 +29,8 @@ export const ScreenWrapper = React.forwardRef<ScrollView, ScreenWrapperProps>(
       scrollViewStyle,
       header,
       scrollViewProps,
+      topSafeAreaVisible = true,
+      bottomSafeAreaVisible = false,
     },
     scrollRef
   ) => {
@@ -71,7 +76,12 @@ export const ScreenWrapper = React.forwardRef<ScrollView, ScreenWrapperProps>(
     ]);
 
     return (
-      <View className="flex-1 py-safe">
+      <View
+        className={cn("flex-1 bg-white", {
+          "pt-safe": topSafeAreaVisible,
+          "pb-safe": bottomSafeAreaVisible,
+        })}
+      >
         {header}
         {Content}
       </View>

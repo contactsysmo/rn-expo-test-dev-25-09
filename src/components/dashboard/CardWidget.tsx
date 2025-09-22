@@ -1,5 +1,5 @@
 import { images } from "@/src/assets/images";
-import { CreditCardDetails } from "@/src/types/CreditCard";
+import { CreditCardDetails } from "@/src/types/creditCard";
 import { Image } from "expo-image";
 import { LinearGradient } from "expo-linear-gradient";
 import { Copy } from "lucide-react-native";
