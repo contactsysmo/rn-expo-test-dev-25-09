@@ -22,7 +22,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="referral"
         options={{
           title: "Referral",
           tabBarIcon: ({ color }) => <UserPlus size={28} color={color} />,

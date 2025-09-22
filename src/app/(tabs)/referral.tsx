@@ -1,6 +1,6 @@
 import { ScrollView, View } from "react-native";
 
-export default function TabTwoScreen() {
+export default function ReferralScreen() {
   return (
     <ScrollView>
       <View />
