@@ -16,7 +16,7 @@ export const CardWidget = ({ card }: CardWidgetProps) => {
   return (
     <TouchableOpacity
       onPress={() => setShowBalance(!showBalance)}
-      className="w-full shadow-lg aspect-[1.75]"
+      className="w-full shadow-lg aspect-[1.6]"
       activeOpacity={0.7}
     >
       <LinearGradient
